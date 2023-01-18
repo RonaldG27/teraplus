@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="376.0" prefWidth="419.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.proyect.proyectosegupol.PantallaurbanizacionController">
+   <children>
+      <Pane prefHeight="376.0" prefWidth="419.0" style="-fx-background-color: #5dc1b9;">
+         <children>
+            <Button fx:id="iniciobutton" layoutX="314.0" layoutY="80.0" mnemonicParsing="false" onAction="#showinicial" text="VOLVER" />
+            <Button layoutX="14.0" layoutY="80.0" mnemonicParsing="false" text="MOSTRAR INFO" />
+            <Button layoutX="173.0" layoutY="80.0" mnemonicParsing="false" text="EDITAR INFO" />
+         </children></Pane>
+      <Pane prefHeight="70.0" prefWidth="419.0" style="-fx-background-color: #0D737E;" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Label layoutX="121.0" layoutY="8.0" prefHeight="54.0" prefWidth="225.0" text="URBANIZACION">
+               <font>
+                  <Font name="Arial Black" size="23.0" />
+               </font></Label>
+         </children></Pane>
+   </children>
+</AnchorPane>
